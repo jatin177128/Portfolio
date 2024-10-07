@@ -92,11 +92,7 @@ export const skills = [
         name: "Redux",
         type: "State Management",
     },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
+   
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
@@ -106,7 +102,8 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
+    
 ];
 
 export const experiences = [
@@ -173,12 +170,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/jatin177128',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/jatin-arya-612b86203/',
     }
 ];
 
@@ -186,43 +183,37 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Anonymous Feedback',
+        description: '💻 I developed a scalable full-stack web app for collecting and analyzing anonymous feedback, leveraging MongoDB for efficient data storage and 🤖 AI for actionable insights.',
+        link: 'https://anonymous-feedback-xcwx.vercel.app/',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Ochi Animated Site',
+        description: 'This site showcases modern design elements, smooth animations, and an intuitive user experience, all brought to life using the power of React.',
+        link: 'https://animated-site-phi.vercel.app/',
     },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
+    
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Amazon Frontend Clone',
+        description: 'Built a complete clone of Amazon, Allowing users to browse products, add them to their cart, and checkout securely.',
+        link: 'https://github.com/jatin177128/amazon_clone',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Bubble Game',
+        description: 'Developed a fun and interactive bubble-popping game using React, where users can compete to achieve the highest score.',
+        link: 'https://github.com/jatin177128/Bubble-Game',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Image Feature Extraction',
+        description: '🖼️ I created an AI-powered image summarizer that extracts the most important features from an image, providing users with a concise summary.',
+        link: 'https://github.com/jatin177128/ML-challenges',
     }
 ];
